@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.mifen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@color/background" >
+
+        <TextView
+            android:id="@+id/setback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="@dimen/sign_margin_right"
+            android:layout_weight="0.5"
+            android:text="@string/cancel"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/common_size3"
+             />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/address"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/common_text_size" />
+
+        <TextView
+            android:id="@+id/newaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginRight="@dimen/sign_margin_right"
+            android:layout_weight="0.5"
+            android:text="@string/save"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/common_size3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:hint="@string/receiver"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:hint="@string/tellphone"
+            android:ems="11" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting_newaddress_dailog_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="@dimen/middle_margin_left"
+        android:layout_marginTop="@dimen/middle_margin_left"
+        android:layout_marginBottom="@dimen/middle_margin_left">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="所在区域"
+            android:textSize="@dimen/sign_textsize_forgetpassword" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address_mingxi"
+            android:background="@drawable/shape" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middle_margin_top"
+        android:layout_marginRight="@dimen/middle_margin_right" 
+        android:layout_marginLeft="@dimen/middle_margin_right">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/sign_textsize_forgetpassword"
+            android:text="设为默认地址" />
+
+        <com.ymhd.mifei.tool.ToggleButton
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_weight="10"
+            
+            app:onColor="@color/common_white"
+            app:spotColor="@color/background"
+            app:offColor="@color/common_white" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/setting_newaddress.xml -->

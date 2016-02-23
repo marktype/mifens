@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">14dp</dimen>
+<!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- For buttons -->
+    <dimen name="common_text_size_large">18dp</dimen>
+    <!-- For list texts (top line) -->
+    <dimen name="common_text_size_middle">25sp</dimen>
+    <dimen name="common_text_size_middle_2">26sp</dimen>
+    <!-- For list texts (bottom line), summary texts, icon texts, descriptions, tag texts -->
+    <dimen name="common_text_size_small">13dp</dimen>
+    <dimen name="common_text_size_small_2">10dp</dimen>
+    <dimen name="common_text_size_small_3">12dp</dimen>
+    <dimen name="page_margin_width">6dp</dimen>
+    <dimen name="sign_margin_top">20dp</dimen>
+    <dimen name="sign_margin_bottom">20dp</dimen>
+    <dimen name="sign_margin_left">20dp</dimen>
+    <dimen name="sign_margin_right">20dp</dimen>
+    <dimen name="line_margin_left">16dp</dimen>
+    <dimen name="custom_margin_top">5dp</dimen>
+    
+    <dimen name="small_margin_top">2dp</dimen>
+    <dimen name="small_margin_bottom">2dp</dimen>
+    <dimen name="small_margin_left">2dp</dimen>
+    <dimen name="small_margin_right">2dp</dimen>
+    
+    
+    <dimen name="middle_margin_top">8dp</dimen>
+    <dimen name="middle_margin_bottom">8dp</dimen>
+    <dimen name="middle_margin_left">8dp</dimen>
+    <dimen name="middle_margin_right">8dp</dimen>
+    <dimen name="three_grid_unit">24dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+    
+    <dimen name="sign_textsize_forgetpassword">18sp</dimen>
+    <dimen name="common_text_size">19sp</dimen>
+    <dimen name="common_size">14sp</dimen>
+    <dimen name="common_size2">12sp</dimen>
+    <dimen name="common_size3">16sp</dimen>
+    <dimen name="common_size4">10sp</dimen>
+    <dimen name="common_calendar_day_size">13sp</dimen>
+    
+    
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    
+    
+    <dimen name="padding">2dp</dimen>
+    <dimen name="padding1">3dp</dimen>
+    <dimen name="padding2">4dp</dimen>
+    <dimen name="padding4">2dp</dimen>
+    <dimen name="padding3">1dp</dimen>
+</resources>

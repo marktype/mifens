@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/middle_margin_top"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <com.ymhd.mifei.tool.SingleSelectCheckBoxs
+        android:id="@+id/sscb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" />
+
+</LinearLayout><!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/seach_filterpop_singleselect.xml -->

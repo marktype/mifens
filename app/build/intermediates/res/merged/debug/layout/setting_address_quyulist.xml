@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_linerlayout2"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/sign_margin_bottom"
+            android:layout_marginTop="@dimen/sign_margin_top"
+            android:gravity="center"
+            android:text="@string/select_quyu"
+            android:textSize="@dimen/sign_textsize_forgetpassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/middle_margin_right"
+                android:text="@string/province"
+                android:textColor="@color/background" />
+
+            <Spinner
+                android:id="@+id/spinner_province"
+                style="@style/spinner_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/middle_margin_bottom"
+                android:layout_weight="1"
+                android:animationCache="true"
+                android:background="@drawable/sprinner"
+                android:drawSelectorOnTop="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin_top"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/middle_margin_right"
+                android:text="@string/city"
+                android:textColor="@color/background" />
+
+            <Spinner
+                android:id="@+id/spinner_city"
+                style="@style/spinner_style"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/middle_margin_bottom"
+                android:layout_weight="1"
+                android:background="@drawable/sprinner" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_margin_top"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/middle_margin_right"
+                android:text="@string/district"
+                android:textColor="@color/background" />
+
+            <Spinner
+                android:id="@+id/spinner_district"
+                style="@style/spinner_style"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/middle_margin_bottom"
+                android:layout_weight="1"
+                android:background="@drawable/sprinner" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/middle_margin_bottom"
+            android:layout_weight="1"
+            android:background="@drawable/btn_select"
+            android:text="@string/cancel"
+            android:textColor="@color/common_white" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/middle_margin_bottom"
+            android:layout_weight="1"
+            android:background="@drawable/shape_button"
+            android:text="@string/sure"
+            android:textColor="@color/common_white" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/setting_address_quyulist.xml -->

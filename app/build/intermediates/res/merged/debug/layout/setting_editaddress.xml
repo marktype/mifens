@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.mifen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@color/background" >
+
+        <TextView
+            android:id="@+id/setback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="@dimen/sign_margin_right"
+            android:layout_weight="0.5"
+            android:text="@string/cancel"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/common_size3" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/address"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/common_text_size" />
+
+        <TextView
+            android:id="@+id/newaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginRight="@dimen/sign_margin_right"
+            android:layout_weight="0.5"
+            android:text="@string/save"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/common_size3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middle_margin_bottom"
+        android:background="@color/common_white" >
+
+        <TextView
+            android:id="@+id/share_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding"
+            android:layout_marginLeft="@dimen/middle_margin_bottom"
+            android:layout_marginRight="@dimen/middle_margin_bottom"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_weight="1"
+            android:text="xxx"
+            android:textSize="@dimen/common_size3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/common_white" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding"
+            android:layout_marginLeft="@dimen/middle_margin_bottom"
+            android:layout_marginRight="@dimen/middle_margin_bottom"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_weight="1"
+            android:text="135****4567"
+            android:textSize="@dimen/common_size3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/setting_editaddres_quyudialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/common_white" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding"
+            android:layout_marginLeft="@dimen/middle_margin_bottom"
+            android:layout_marginRight="@dimen/middle_margin_bottom"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_weight="1"
+            android:text="四川  成都  武侯区"
+            android:textSize="@dimen/common_size3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="12"
+            android:padding="@dimen/small_margin_top"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/common_white" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding"
+            android:layout_marginLeft="@dimen/middle_margin_bottom"
+            android:layout_marginRight="@dimen/middle_margin_bottom"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_weight="1"
+            android:text="@string/other"
+            android:textSize="@dimen/common_size3" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="12"
+            android:padding="@dimen/small_margin_top"
+            android:src="@drawable/arrow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding"
+        android:background="@color/common_white" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding"
+            android:layout_marginLeft="@dimen/middle_margin_bottom"
+            android:layout_marginRight="@dimen/middle_margin_bottom"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_weight="1"
+            android:text="xx路xx段xx号"
+            android:textSize="@dimen/common_size3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_white"
+        android:layout_marginTop="@dimen/middle_margin_top" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/middle_margin_right"
+            android:text="设为默认地址"
+            android:textSize="@dimen/common_size3" />
+
+        <com.ymhd.mifei.tool.ToggleButton
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_weight="10"
+            android:layout_marginRight="@dimen/middle_margin_right"
+            app:offColor="@color/common_white"
+            app:onColor="@color/common_white"
+            app:spotColor="@color/background" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middle_margin_top"
+        android:background="@color/common_white" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/padding"
+            android:layout_marginLeft="@dimen/middle_margin_bottom"
+            android:layout_marginRight="@dimen/middle_margin_bottom"
+            android:layout_marginTop="@dimen/padding"
+            android:layout_weight="1"
+            android:text="@string/deleteaddress"
+            android:textColor="@color/background"
+            android:textSize="@dimen/common_size3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/middle_margin_bottom" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/yesornodefault"
+            android:textSize="@dimen/common_size2" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/setting_editaddress.xml -->

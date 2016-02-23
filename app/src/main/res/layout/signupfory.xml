@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_grey"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@color/background"
+        >
+
+        <ImageView
+            android:id="@+id/yanzhengma_setback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:src="@drawable/arrow2" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/common_text_size"
+            android:text="@string/signup" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_linerlayout"
+        android:layout_marginTop="@dimen/sign_margin_top"
+        android:layout_marginBottom="@dimen/sign_margin_bottom"
+        android:layout_marginRight="@dimen/sign_margin_right"
+        android:layout_marginLeft="@dimen/sign_margin_left" >
+
+        <EditText
+            android:id="@+id/yanzhengma_ed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape"
+            android:ems="6" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/grey"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/sign_textsize_forgetpassword"
+            android:text="@string/getSMS_verifyCode" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/yanzhengma_btn"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_button"
+            android:layout_marginLeft="@dimen/sign_margin_left"
+            android:layout_marginRight="@dimen/sign_margin_right"
+            android:textColor="@color/text_color_select"
+            android:text="@string/sure" />
+
+    </LinearLayout>
+
+</LinearLayout>

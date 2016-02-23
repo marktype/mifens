@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_grey"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/sign_margin_bottom"
+        android:layout_marginTop="@dimen/sign_margin_top"
+        android:background="@color/common_white"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/onkeysign_tellphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="@string/hint_signin_user" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/password_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="@string/hint_signin_password" />
+
+        <EditText
+            android:id="@+id/confirm_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:hint="@string/surepassword" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_linerlayout" >
+
+            <EditText
+                android:id="@+id/yanzhengma_ed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/shape2"
+                android:ems="6" />
+
+            <TextView
+                android:id="@+id/getSMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/grey"
+                android:text="@string/getSMS_verifyCode"
+                android:gravity="center"
+                android:textColor="@color/text_color_select3"
+                android:textSize="@dimen/sign_textsize_forgetpassword" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/onekey_button"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/sign_margin_left"
+            android:layout_marginRight="@dimen/sign_margin_right"
+            android:background="@drawable/shape_button"
+            android:focusableInTouchMode="false"
+            android:text="@string/onekeysignup"
+            android:textColor="@color/text_color_select3" />
+
+        <TextView
+            android:id="@+id/tellphone_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/sign_margin_right"
+            android:layout_marginTop="@dimen/sign_margin_top"
+            android:gravity="right"
+            android:textSize="@dimen/sign_textsize_forgetpassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sign_margin_left"
+        android:layout_marginRight="@dimen/sign_margin_right"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content"
+            android:textColor="@color/text_color_common"
+            android:textSize="@dimen/common_text_size" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content2"
+            android:textColor="@color/text_color_common"
+            android:textSize="@dimen/common_text_size" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content3"
+            android:textColor="@color/text_color_common"
+            android:textSize="@dimen/common_text_size" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/signupforonekey.xml -->

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\AMap_2DMap_V2.8.0_20151231.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5b6befd8d90541e8545d4e853d4ab5f8944d1f2f">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\AMap_2DMap_V2.8.0_20151231-b6ace12adbd6722072f09905c35d6bb727d126dd.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\commons-logging-1.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5043bfebc3db072ed80fbd362e7caf00e885d8ae">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\commons-logging-1.1.1-6d323a3129b9e5f09a0d3033634cb999cee939f3.jar" />
+    </item>
+    <item
+        jar="C:\Users\欢大哥\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\gson-2.2.4-b3238d59b9d267bb11f70960610e2ad29766731e.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\AMap_Location_v2.3.0_20160112.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bfe17aa93c71a6973a53fcbaf7bfe2f3a1859dcf">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\AMap_Location_v2.3.0_20160112-d697e4107a978f57738a01ec171340acfacb61cb.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\commons-collections-3.2.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="761ea405b9b37ced573d2df0d1e3a4e0f9edc668">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\commons-collections-3.2.1-4183a9ff9988ec17d2bb09b1bb7ffc776c5441b4.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\httpclient-4.2.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3bfeb9062b12d5b340445336790dbc14c59c2d79">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\httpclient-4.2.5-bcaa6837af77a95c706f698ee75874f5174f5c07.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\httpclient-cache-4.2.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="313cfeb950089985994736aa08885711c56b7e1e">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\httpclient-cache-4.2.5-0e138fd5f63dfcdc7433ba9d94630e5cc2995186.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\build\intermediates\exploded-aar\org.xutils\xutils\3.2.8\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="13bc5014e3bfbc8786da2277d23db89c300c4a98">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\classes-ba2f0ef91e682dd1da94cea496548d6ffb0175f7.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\AMap_Android_3DMapSDK_V3.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c2dfbf74b904ac868a4a282e3570314c1a38df9b">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\AMap_Android_3DMapSDK_V3.1.1-3dd64607c9f16dd0c49161816b16528d68b09950.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\afinal_0.5.1_bin.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ae398c74701392473b9cb488c76a92576d6f548c">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\afinal_0.5.1_bin-8d6f1eca8540c750cc92179fbc44b899d223881e.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="12b40458075441c1a66d3fe16e72217ee7472a47">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview-4b91cefdf74b47c12748babd810f26d097601ee6.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\commons-beanutils-1.8.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f614e4377d505e5826606ba66861d8c409c662bc">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\commons-beanutils-1.8.3-f13a79150c89aba1453081390dde63a5b798f282.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\Msc.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="14e02a95fa56eb18b385a4f156b4fb14d4721df4">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\Msc-1aa8d120fe9fed18570c07e9d9f0247c6de89c77.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-0ff108d2327911f64d9eb0786869f94df4e5ab3f.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e8796346a9191a019e936210a2dc50662c57594b">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.4-jar-with-dependencies-206f722c3904a022a8488ed418d5504787a3010a.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\AMap_Search_V2.8.0_20160105.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3babc84b93ea0cb9ca53a4c4858a561fd300fe50">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\AMap_Search_V2.8.0_20160105-f416cf5b5eeb1883f7e3348d698d9608754646d6.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\AMap_Navi_v1.6.0_20151229.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9069e3afad9a179a04225a92a47b3c4b083f385e">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\AMap_Navi_v1.6.0_20151229-41d9d46e209d3190c7a06ea5141d8393755aa23e.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\httpcore-4.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3b7f38df6de5dd8b500e602ae8c2dd5ee446f883">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\httpcore-4.2.4-8329a8855eaf78fcf312625cbfb1d1bc59740a2e.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\classes-1426b24a09a3bbd931961bf04b6d0520015ee999.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-d0f51865070665cc9d15ec690b99fc0e75de6663.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\togglebuttonlib.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="199d62cbe8defdfaa94469e5f95b7d0fbe5697ac">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\togglebuttonlib-a93e612d35ef5b4c116305e5efca3bf37d852d3d.jar" />
+    </item>
+    <item
+        jar="D:\androidThree\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-6d0e16a89c1aa92a986711556628c82613454c50.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\fluent-hc-4.2.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7eda2ae9f77415cf92651191e2229eae2caf0b61">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\fluent-hc-4.2.5-0244388f373a3d508b222e0b0b61004a41c59a08.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\core.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7a190a9f5bce922a94fe0eec5235abe8fc10900a">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\core-b879fd2019202fa4fe8b50591e37072c0b0e6775.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\classes-489bc418660b2e080a51b5d04bf5119c90d9a17a.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\httpmime-4.2.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="6efc2f9df23c2ac4d3b701a11cab9f9fa6a641d4">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\httpmime-4.2.5-5b241769acfef55f271752e93801f9e39b9cce4c.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\commons-lang-2.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0ce1edb914c94ebc388f086c6827e8bdeec71ac2">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\commons-lang-2.6-e91279c97e327b7ef0541da4ca145750a69396b2.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\commons-io-2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\commons-io-2.4-fdaff56860d1f779aaeaccfa26db27bda7e87e12.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\json-lib-2.4-jdk15.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="136743e0d12df4e785e62b48618cee169b2ae546">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\json-lib-2.4-jdk15-9527fb8e757b66dadb66c4e22fa95f95fd019cad.jar" />
+    </item>
+    <item
+        jar="D:\androidstudioProject\mifen21\app\libs\ezmorph-1.0.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="01e55d2a0253ea37745d33062852fd2c90027432">
+        <dex dex="D:\androidstudioProject\mifen21\app\build\intermediates\pre-dexed\debug\ezmorph-1.0.6-413ae225a50ad85955a5d0d0373190b1007471f6.jar" />
+    </item>
+
+</items>

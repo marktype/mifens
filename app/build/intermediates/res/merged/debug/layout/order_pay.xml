@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="@color/background" >
+
+                <ImageView
+                    android:id="@+id/orderpayback"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginLeft="@dimen/sign_margin_right"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/arrow2" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.2"
+                    android:gravity="center"
+                    android:text="@string/cashier"
+                    android:textColor="@color/common_white"
+                    android:textSize="@dimen/common_text_size" />
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:layout_marginRight="@dimen/sign_margin_right"
+                    android:layout_weight="0.5" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/sign_margin_top" >
+
+                <RadioButton
+                    android:id="@+id/alibabapay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/middle_margin_bottom"
+                    android:button="@drawable/alibabapay"
+                    android:checked="true"
+                    android:paddingLeft="@dimen/sign_margin_bottom"
+                    android:drawableRight="@drawable/btn_radio_pay" />
+
+                <RadioButton
+                    android:id="@+id/wechatpay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/middle_margin_bottom"
+                    android:button="@drawable/wechat"
+                    android:drawableRight="@drawable/btn_radio_pay"
+                    android:paddingLeft="@dimen/sign_margin_bottom"
+                    android:textSize="@dimen/common_size3"
+                    android:text="RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/bankcar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/middle_margin_bottom"
+                    android:button="@drawable/bankcar"
+                    android:drawableRight="@drawable/btn_radio_pay"
+                    android:paddingLeft="@dimen/sign_margin_bottom"
+                    android:text="RadioButton" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/arrowtop" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="@string/otherpay" />
+                </LinearLayout>
+
+                <RadioButton
+                    android:id="@+id/banks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/middle_margin_top"
+                    android:layout_marginBottom="@dimen/middle_margin_bottom"
+                    android:button="@drawable/banks"
+                    android:drawableRight="@drawable/btn_radio_pay"
+                    android:paddingLeft="@dimen/sign_margin_bottom"
+                    android:text="RadioButton" />
+
+                <RadioButton
+                    android:id="@+id/qqpay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/middle_margin_bottom"
+                    android:button="@drawable/qqpay"
+                    android:drawableRight="@drawable/btn_radio_pay"
+                    android:paddingLeft="@dimen/sign_margin_bottom"
+                    android:text="RadioButton" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:gravity="right|bottom" >
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应付款：" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding2"
+                android:layout_marginRight="@dimen/padding2"
+                android:text="799.9" />
+
+            <Button
+                android:id="@+id/commodity_submitorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_button"
+                android:textColor="@color/text_color_select"
+                android:text="@string/gopay" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/order_pay.xml -->

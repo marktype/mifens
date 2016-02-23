@@ -1,0 +1,114 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\androidwork\mifen 21
+                    -  
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* META-INF\
+* META-INF\MANIFEST.MF
+* ic_launcher-web.png
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.1.1
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:23.1.1
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:23.1.1]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\afinal_0.5.1_bin.jar => app\libs\afinal_0.5.1_bin.jar
+* libs\AMap_2DMap_V2.8.0_20151231.jar => app\libs\AMap_2DMap_V2.8.0_20151231.jar
+* libs\AMap_Android_3DMapSDK_V3.1.1.jar => app\libs\AMap_Android_3DMapSDK_V3.1.1.jar
+* libs\AMap_Location_v2.3.0_20160112.jar => app\libs\AMap_Location_v2.3.0_20160112.jar
+* libs\AMap_Navi_v1.6.0_20151229.jar => app\libs\AMap_Navi_v1.6.0_20151229.jar
+* libs\AMap_Search_V2.8.0_20160105.jar => app\libs\AMap_Search_V2.8.0_20160105.jar
+* libs\android-support-v7-recyclerview.jar => app\libs\android-support-v7-recyclerview.jar
+* libs\armeabi\libgdamapv4sdk751.so => app\src\main\jniLibs\armeabi\libgdamapv4sdk751.so
+* libs\armeabi\libgdamapv4sdk751ex.so => app\src\main\jniLibs\armeabi\libgdamapv4sdk751ex.so
+* libs\armeabi\libmsc.so => app\src\main\jniLibs\armeabi\libmsc.so
+* libs\armeabi\libtbt.so => app\src\main\jniLibs\armeabi\libtbt.so
+* libs\armeabi\libwtbt.so => app\src\main\jniLibs\armeabi\libwtbt.so
+* libs\commons-beanutils-1.8.3.jar => app\libs\commons-beanutils-1.8.3.jar
+* libs\commons-collections-3.2.1.jar => app\libs\commons-collections-3.2.1.jar
+* libs\commons-io-2.4-sources.jar => app\libs\commons-io-2.4-sources.jar
+* libs\commons-io-2.4.jar => app\libs\commons-io-2.4.jar
+* libs\commons-lang-2.6.jar => app\libs\commons-lang-2.6.jar
+* libs\commons-logging-1.1.1.jar => app\libs\commons-logging-1.1.1.jar
+* libs\core.jar => app\libs\core.jar
+* libs\ezmorph-1.0.6.jar => app\libs\ezmorph-1.0.6.jar
+* libs\fluent-hc-4.2.5.jar => app\libs\fluent-hc-4.2.5.jar
+* libs\httpclient-4.2.5.jar => app\libs\httpclient-4.2.5.jar
+* libs\httpclient-cache-4.2.5.jar => app\libs\httpclient-cache-4.2.5.jar
+* libs\httpcore-4.2.4.jar => app\libs\httpcore-4.2.4.jar
+* libs\httpmime-4.2.5.jar => app\libs\httpmime-4.2.5.jar
+* libs\json-lib-2.4-jdk15.jar => app\libs\json-lib-2.4-jdk15.jar
+* libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar => app\libs\ksoap2-android-assembly-2.4-jar-with-dependencies.jar
+* libs\Msc.jar => app\libs\Msc.jar
+* libs\nineoldandroids-2.4.0.jar => app\libs\nineoldandroids-2.4.0.jar
+* libs\togglebuttonlib.jar => app\libs\togglebuttonlib.jar
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

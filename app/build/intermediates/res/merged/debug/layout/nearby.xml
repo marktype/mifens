@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@color/background" >
+
+        <ImageView
+            android:id="@+id/setback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:src="@drawable/editor" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/nearyshop"
+            android:textColor="@color/common_white"
+            android:textSize="@dimen/sign_textsize_forgetpassword" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:src="@drawable/search2" >
+        </ImageView>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/radio_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:button="@null"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="列表"
+            android:focusable="false"
+            android:gravity="center"
+            android:drawableBottom="@drawable/btn_radio_pay"
+            android:textColor="@color/text_color_select_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/radio_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:focusable="false"
+            android:text="地图" 
+            android:gravity="center"
+            android:drawableBottom="@drawable/btn_radio_pay"
+             android:textColor="@color/text_color_select_radiobutton"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/nearby_lin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/nearby.xml -->

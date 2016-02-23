@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:color="@color/background" android:state_selected="true"/>
+     <item android:color="@color/common_white" android:state_selected="false"/>
+</selector>
+<!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/color/text_color_select3.xml -->

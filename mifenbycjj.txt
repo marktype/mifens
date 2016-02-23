@@ -1,0 +1,72 @@
+time : 2016-2-3;
+create by cjj;
+class info:
+com.handmark.pulltorefresh.library:可以上下拉刷新的scrollview，未使用，保留！
+com.yhd.mifen.navi.util:高德地图导航数据，包含utils，和语音控制器，key分别为高德地图key和讯飞语音key
+com.ymhd.ad:广告栏数据存储，为ad的地址和动画；
+com.ymhd.fragmen.ui:分1,2两个版本，1版本为sign使用，为登陆与注册使用，2版本为订单，好友圈使用，包含是否使用提示点，提示数据；
+com.ymhd.main:baseActivity为基类，包含公用的sharepfrences和双击退出，其余为主界面五大主要界面Activity；
+com.ymhd.mifei.listadapter:list的适配器，classifyadapter为分类第一次出现的listview的适配器。其余两个是第二次出现的两个listview的适配器；
+com.ymhd.mifei.sign:登陆和注册；
+com.ymhd.mifei.tool:工具控件和重要数据保存datauri
+com.ymhd.mifen.adapter:首页gridview的适配器，和recycleview的适配器
+com.ymhd.mifen.http:http请求的封装类，可直接调用。才用httpClient包；
+com.ymhd.mifen.myself:个人中心的页各种次级页面；
+com.ymhd.mifen.order:个人订单的所有状态，以及订单的确认和订单的付款，订单的选着收货方式；
+com.ymhd.mifen.pop:弹出框，选择产品分类和筛选界面；
+com.ymhd.mifen.setting:设置界面的各种次级页面；
+com.ymhd.mifen.shoping:购物相关的界面，为选择产品，产品信息；
+com.zxing.android:google提供的二维码扫描控件，界面已经修改完毕，具体跳转，并未进行修改。
+
+xml info:
+drawable
+btn_check(1--5):主界面tab的页面点击效果；
+btn_radio_pay，btn_radiobutton:radiobutton的点击选中效果；
+btn_select:button的点击特效；
+shap_xxxx:形状相关，具体相关，相见后缀控件名；
+shap1,shap2:edittext使用；
+layout:
+custom(1--5):主界面tabview的view；
+classify_xxxx:与分类相关的界面；
+commodity_xxxx:与商品相关的各种界面；
+dapei_homepage:未确定界面，有可能是用html5，过滤进homepage；
+dialog_xxxx:弹出框相关界面；
+myorder_all:订单的所有的相关界面承载体；
+myself_xxxx:个人中心以及子界面的各种界面；
+nearbyxxxx:附近的各种的界面；
+order_xxxxx:订单的各种信息
+seach_xxxx:搜索的各种界面；
+setting_xxxx:设置的各种界面；
+shoppingcar_xxxx:购物车的各种界面；
+signxxx:登陆注册各种界面,因为功能更改，signupfory，signfortellphone已废弃；
+title_xxxxx:注册和全部订单，朋友圈头部栏xml；
+
+
+java：
+TabInfo(int id, String name, boolean hasTips, Class clazz, int num)
+id:对应的tab的id；name:头部名字；hasTips：是否显示红点，clazz：承载的class,num:红点中的数据
+calendarSign.getactivityBadgeTextView(num):num取值（1--31）为设置当月第几天为选中日，绘制背景图片，用于活动日；
+sp = getSharedPreferences("token&refreshtoken", Context.MODE_PRIVATE):为token存取的xml，取出的token和refresh用于登陆等等一列请求，详见需求文档；
+sp = getSharedPreferences("checktype", Context.MODE_PRIVATE):为收藏和浏览使用，判断状态。
+注：亦可使用sqlite，是有sharepreference是因为简单易用。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

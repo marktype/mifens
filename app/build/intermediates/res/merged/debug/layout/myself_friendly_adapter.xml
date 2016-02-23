@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/iv_dichan_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_dichan_manager_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_dichan_icon"
+            android:layout_toRightOf="@id/iv_dichan_icon"
+            android:text="普京" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/iv_dichan_icon"
+            android:text="1天前" />
+
+        <TextView
+            android:id="@+id/tv_dichan_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_dichan_manager_name"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_dichan_icon"
+            android:text="犯我大唐者，虽远必诛。" />
+
+        <TextView
+            android:id="@+id/tv_yong_jin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_dichan_description"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/iv_dichan_icon"
+            android:text="盗用名言" />
+
+        <LinearLayout
+            android:id="@+id/ll_dichan_project_pic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_yong_jin"
+            android:layout_toRightOf="@id/iv_dichan_icon"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_launcher" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_launcher" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_launcher" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_dichan_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_dichan_project_pic"
+            android:layout_toRightOf="@id/iv_dichan_icon" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="删除" />
+
+            <TextView
+                android:id="@+id/tv_huifu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="回复" />
+
+            <TextView
+                android:id="@+id/friendly_dianzhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@id/tv_huifu"
+                android:drawableLeft="@drawable/ic_launcher"
+                android:text="赞" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_pinglun_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_dichan_view"
+            android:layout_toRightOf="@id/iv_dichan_icon"
+            android:background="#dddddd"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/line" />
+
+</LinearLayout><!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/myself_friendly_adapter.xml -->

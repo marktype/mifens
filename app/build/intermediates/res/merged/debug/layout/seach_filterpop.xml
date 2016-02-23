@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seach_filterpop_layout"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="@dimen/sign_margin_bottom"
+    android:background="@color/common_white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_marginTop="@dimen/sign_margin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_text_size"
+        android:gravity="center"
+        android:text="@string/filter" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/middle_margin_left"
+        android:layout_marginTop="@dimen/middle_margin_top"
+        android:text="价格" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="@dimen/middle_margin_left"
+        android:layout_marginTop="@dimen/middle_margin_top"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="区间价(元)" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button3"
+            android:layout_marginLeft="@dimen/middle_margin_left"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/middle_margin_left"
+            android:text="——" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button3"
+            android:layout_marginLeft="@dimen/middle_margin_left"
+            android:ems="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/seach_filter_ex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/middle_margin_top"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/seach_filterpop.xml -->

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">蜜粉</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete">删除</string>
+    <string name="qr">二维码/条码</string>
+    <!-- more to sign -->
+    <string name="signup">注册</string>
+    <string name="onekeysignup">一键注册</string>
+    <string name="tellphonesigup">用户名注册</string>
+    <string name="signin">登录</string>
+    <string name="onekeysignin">一键登录</string>
+    <string name="sure">确认</string>
+    <string name="cancel">取消</string>
+    <string name="moreaccount">更多其它账号</string>
+    <string name="content">注册成功后</string>
+    <string name="content2">【账号】 当前手机号，可用来登陆和找回密码</string>
+    <string name="content3">【密码】 你随时可以在“我”的页面-个人信息中进行设置</string>
+    <string name="other">其他</string>
+    
+    <string name="tellphone">手机号</string>
+    <string name="password">密码</string>
+    <string name="surepassword">确认密码</string>
+    <string name="identifyingcode">验证码</string>
+    
+    
+    <string name="home">主页</string>
+    <string name="classify">分类</string>
+    <string name="nearby">附近</string>
+    <string name="shoppingcar">购物车</string>
+    <string name="my">我的</string>
+    
+    <string name="mainpage">主页</string>
+    <string name="safe">安全中心</string>
+    <string name="myred">我的红包</string>
+    <string name="more">更多</string>
+    <string name="gesturepassword">手势密码</string>
+    <string name="changgepassword">修改登录密码</string>
+    <string name="changgegesturepassword">修改手势密码</string>
+    <string name="bindingtellphonenumber">绑定手机号</string>
+    <string name="notbindingbanknumber">您尚未绑定银行卡</string>
+    <string name="getSMS_verifyCode">获取验证码</string>
+    
+    <string name="hint_signin_user">手机号</string>
+    <string name="hint_signin_password">密码</string>
+    <string name="forgetpassword">忘记密码</string>
+    
+     <!-- more to homepage-->
+    <string name="specialprice">今日特价</string>
+    <string name="hotsearch">热门搜索</string>
+    <string name="historysearch">历史搜索</string>
+    <string name="clearhistory">清除历史记录</string>
+    <string name="liuxingchaoping">流行潮品</string>
+    <string name="hotcommodity">人气热销</string>
+    <string name="onlyforyou">为你精选</string>
+     <string name="fenggetuijian">风格推荐</string>
+    <string name="dapeituijian">搭配推荐</string>
+    <string name="brandstreet">品牌街</string>
+    
+    
+    <!-- more to iteminfo-->
+    <string name="kehutv">客户</string>
+    <string name="collection">收藏</string>
+    <string name="touch">继续拖动，查看图文详情</string>
+    <string name="commodity_info">商品详情</string>
+    <string name="commodity_size">尺寸</string>
+    <string name="pingjia">商品评价</string>
+    <string name="saidan">晒单</string>
+    <string name="parameter">产品参数</string>
+    <string name="pleasechoose">请选择颜色/尺码</string>
+    <string name="buy">购买</string>
+    <string name="choose_ok">选好了</string>
+    
+    
+    <!-- more to order -->
+    <string name="sureorder">确认订单</string>
+    <string name="submitorder">提交订单</string>
+    <string name="cashier">收银台</string>
+    <string name="otherpay">其他支付方式</string>
+    <string name="gopay">去付款</string>
+    <string name="payandsend">支付配送</string>
+    <string name="paystype">支付方式</string>
+    <string name="sendtype">配送方式</string>
+    <string name="payandsendtype">选择支付配送方式</string>
+    <string name="payonline">在线支付</string>
+    <string name="payofline">货到付款</string>
+    <string name="takebyself">实体店自提</string>
+    <string name="takebyjd">京东快递</string>
+    <string name="warn">商品库存紧张，请提交订单后30分钟内完成付款</string>
+    <string name="use1">本次您要使用：</string>
+    <string name="shuoming2">蜜豆使用说明</string>
+    <string name="takebyselfaddress">自提地点</string>
+    <string name="takebyselftime">自提时间</string>
+    <string name="selecttakebyselfaddress">选择自提地点</string>
+    <string name="mybuy">我买到的</string>
+    <string name="deleteorder">删除订单</string>
+    <string name="chakanwuliu">查看物流</string>
+    <string name="zuiping">追加评价</string>
+    <string name="success">交易成功</string>
+    <string name="ordernumber">订单号：</string>
+    <string name="cancelorder">取消订单</string>
+    <string name="pay">付款</string>
+    <string name="pingjia2">评价</string>
+    <string name="shengyutime">剩余时间:</string>
+    <string name="tuihuochulizhong">退货处理中</string>
+    
+    
+    
+    <!-- more to classify&classify -->
+    <string name="content4">搜索您想找到的宝贝</string>
+    <string name="mycollection_homepage">我的收藏</string>
+    <string name="myorder_homepage">我的订单</string>
+    <string name="qiandao_homepage">每日签到</string>
+    
+    
+    
+    <!-- more to nearby -->
+    <string name="nearyshop">附近店铺</string>
+    <string name="distance">距离</string>
+    <string name="shopname">店名</string>
+    <string name="location">地址</string>
+    <string name="gohere">去这儿</string>
+    <string name="callphone">电话</string>
+    
+    
+    <!-- more to shoppingcar -->
+    <string name="nameofshoppingcar">购物车</string>
+    <string name="edit">编辑</string>
+    <string name="tosettlement">去结算</string>
+    <string name="promotion">促销</string>
+   
+    
+    
+    
+    
+    
+    
+    <!-- more to myself -->
+    <string name="myself_title">个人中心</string>
+    <string name="friend">好友</string>
+    <string name="friendgroup">好友圈</string>
+    <string name="friendlist">好友列表</string>
+    <string name="midou">蜜豆</string>
+    <string name="qiandao">签到</string>
+    <string name="qiandaoforgetmidou">签到得蜜豆</string>
+    <string name="qiandaotixing">签到提醒</string>
+    <string name="name">名字</string>
+    <string name="obligation">待付款</string>
+    <string name="daifahuo">待发货</string>
+    <string name="daishouhuo">待收货</string>
+    <string name="daipingjia">待评价</string>
+    <string name="tuihuanhuo">退换货</string>
+    <string name="myorder">我的订单</string>
+    <string name="lookfororder">查看我的所有订单</string>
+    <string name="mycollection">我的收藏</string>
+    <string name="myhistory">浏览记录</string>
+    <string name="didyoulike">猜你喜欢</string>
+    <string name="setting">设置</string>
+    <string name="suggestion">意见反馈</string>
+    <string name="kefu">蜜糖客服（8:00-22:00） 400-800-800 </string>
+    <string name="message">消息</string>
+    
+    
+    
+    
+    
+    <!-- versioninfo -->
+    <string name="now">当前版本</string>
+    <string name="info_text">版本信息</string>
+    <string name="info2_text">7.3.1版更新动态</string>
+    <string name="info3_text">1,最新引进时尚大牌，正品保障，随时随地买大牌  so easy</string>
+    <string name="info4_text">2,看晒单更方便，评价里的小图可点开直接放大，叫你看得清楚</string>
+    <string name="tv1">蜜粉（成都）网络科技有限公司  版权所有</string>
+    <string name="tv2">Copyright 2015 mefans.cn</string>
+    <string name="tv3">ALL Rights Reserved</string>
+    
+    
+    <!-- more to setting -->
+    <string name="share">分享</string>
+    <string name="addfriend">添加好友</string>
+    <string name="followsinaweb">关注微博</string>
+    <string name="update">版本更新</string>
+    <string name="clear">清除缓存</string>
+    <string name="pullsetting">推送设置</string>
+    <string name="locksetting">锁屏设置</string>
+    <string name="openpush">开启推送</string>
+    <string name="closepush">关闭推送</string>
+    <string name="openlockpush">开启锁屏推送</string>
+    <string name="closelockpush">关闭锁屏推送</string>
+    <string name="editmyself">编辑个人资料</string>
+    <string name="help">帮助与咨询</string>
+    <string name="myselfinfo">个人信息</string>
+    <string name="headerimg">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="id">用户ID</string>
+    <string name="div">标签</string>
+    <string name="address">收货地址</string>
+    <string name="mybook">我的杂志</string>
+    <string name="myshoworder">我的晒单</string>
+    <string name="mygroup">我的群</string>
+    <string name="userandsafe">账号和安全</string>
+    <string name="new1">新增</string>
+    <string name="save">保存</string>
+    <string name="receiver">收货人姓名</string>
+    <string name="address_mingxi">详细地址</string>
+    <string name="select_quyu">选择区域</string>
+    <string name="province">省份</string>
+    <string name="city">城市</string>
+    <string name="district">区域</string>
+    <string name="deleteaddress">删除此地址</string>
+    <string name="yesornodefault">当前地址已为默认地址</string>
+    
+    
+    <!-- more to colletion -->
+    <string name="allselect">全选</string>
+    <string name="all">全部</string>
+     <!-- more to myselfedit -->
+     <string name="editname">修改昵称</string>
+     <string name="addyourself">添加个人标签</string>
+     <string name="editheader">修改个人头像</string>
+     <string name="editbackground">更换背景图</string>
+     
+     <!-- more to myself_sms -->
+     <string name="activity">蜜粉活动</string>
+     <string name="tongzhi">通知消息</string>
+     <string name="wuliu">物流助手</string>
+     <string name="kehuzhushou">客服助手</string>
+     <string name="myshare">我的分享</string>
+     <string name="jiangjiantixing">降价提醒</string>
+     
+     <!-- more to midou -->
+     <string name="close">关闭</string>
+     <string name="mingxi">我的蜜豆明细</string>
+     <string name="mymidou">我的蜜豆</string>
+     <string name="shuoming">蜜豆说明</string>
+     <string name="iomingxi">蜜豆收支明细</string>
+    
+     
+     <!-- more to seach_shopping -->
+     <string name="filter">筛选</string>
+     <string name="default_">默认</string>
+     <string name="newproduct">新品</string>
+     <string name="salesvolume">销量</string>
+     <string name="price">价格</string>
+    
+
+</resources>

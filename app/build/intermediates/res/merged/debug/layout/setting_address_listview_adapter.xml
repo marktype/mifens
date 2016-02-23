@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/middle_margin_top"
+        android:layout_marginBottom="@dimen/middle_margin_bottom"
+         >
+
+        <RadioButton
+            android:id="@+id/address_selectimg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/middle_margin_top"
+            android:button="@null"
+            android:layout_weight="4"
+            android:drawableRight="@drawable/btn_radio_pay" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/middle_margin_left"
+            android:layout_marginRight="@dimen/middle_margin_right"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/common_size3"
+                    android:textColor="@color/black"
+                    android:text="xxx    135****2789" />
+
+                <ImageView
+                    android:id="@+id/address_default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/sign_margin_left"
+                    android:src="@drawable/address1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="xx省xx市xx街xx号xx路xx房间" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/setting_editaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/middle_margin_right"
+            android:src="@drawable/address_edit" />
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/setting_address_listview_adapter.xml -->

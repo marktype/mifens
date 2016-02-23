@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <com.ymhd.mifei.tool.BadgeTextView
+        android:id="@+id/test"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="88"
+        android:textSize="@dimen/common_calendar_day_size" />
+
+</LinearLayout>
+<!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/test.xml -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_dailog_share"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sign_margin_top"
+        android:text="TextView"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/sign_textsize_forgetpassword" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/middle_margin_top"
+        android:layout_marginTop="@dimen/middle_margin_top"
+        android:gravity="center_horizontal"
+        android:text="@string/openlockpush" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/middle_margin_top"
+        android:gravity="center_horizontal"
+        android:text="@string/closelockpush" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/middle_margin_top"
+        android:layout_marginTop="@dimen/sign_margin_top"
+        android:gravity="center_horizontal"
+        android:text="@string/cancel" />
+
+</LinearLayout>
+<!-- From: file:/D:/androidstudioProject/mifen21/app/src/main/res/layout/dialog_mifen_lookpush.xml -->

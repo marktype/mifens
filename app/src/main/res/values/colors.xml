@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+ <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+ <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+ <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="back">#03c677</color>
+    <color name="back2">#ffffff</color>
+    <color name="green">#03c677</color>
+    <color name="red">#FF0000</color>
+    <color name="red2">#ff74b5</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="background">#ff008e</color>
+    <color name="text_color">#434343</color>
+    <color name="black">#000000</color>
+    <color name="grey">#6f6f6f</color>
+    <color name="focesed">#ffffff</color>
+    <color name="common_white">#ffffff</color>
+    <color name="common_white_shadow">#414141</color>
+    <color name="common_white_disabled">#e7e7e7</color>
+    <!-- For main texts -->
+    <color name="common_dark">#3d5562</color>
+    <color name="common_dark_shadow">#dedede</color>
+    <color name="common_dark_disabled">#9aa7af</color>
+    <!-- For secondary texts -->
+    <color name="common_grey">#f5f5f5</color>
+    <color name="common_grey_disabled">#aabbc4</color>
+    <!-- For danger cases, such as virus, file delete... -->
+    <color name="common_red">#e62f2f</color>
+    <!-- For warning cases, such as trashes... -->
+    <color name="common_yellow">#f1930d</color>
+    <!-- For safe cases -->
+    <color name="common_green">#60990c</color>
+    <!-- For suggestions -->
+    <color name="common_blue">#4b8bbd</color>
+    <color name="tab_indicator_text_selected">#ffffff</color>
+    <color name="tab_indicator_text_unselected">#aac5d7</color>
+    <color name="page_viewer_margin_color">#ff008e</color>
+    <color name="text_color_common">#708090</color>
+    <color name="mengcheng">#50323232 </color>
+    <color name="common_black_g">#6f6f6f</color>
+
+</resources>
